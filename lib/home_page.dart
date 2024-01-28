@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         leading: const Icon(Icons.arrow_back_outlined),
         title: const Text('My App'),
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Color.fromARGB(255, 234, 157, 183),
         actions: const [
           Icon(Icons.notifications),
           Icon(Icons.settings),
